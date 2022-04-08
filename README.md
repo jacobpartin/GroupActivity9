@@ -24,3 +24,7 @@ is made to an anonymous function.
 Function foo takes two inputs an Integral b1 and a list of nums b2
 and it will return a list of nums. Fucntion f takes an Integral and
 returns a num. 
+
+mylist = [1, 3 .. 9]
+foo  m  list = map   (\y ->  y^m   ) list            
+f  x  = foldl  (+)  0  (foo  x  mylist  )    
